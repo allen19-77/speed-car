@@ -1,0 +1,45 @@
+.car {
+	position: relative;
+	background: #000;
+	width: 900px;
+	height: 280px;
+}
+
+.controls {
+	background: #000;
+	width: 900px;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 10px;
+}
+
+button{
+	width: 150px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+#push {
+	background-color: green;
+	
+}
+
+#break {
+	background-color: red;
+}
+
+
+
+.wheel {
+	position: absolute;
+  animation: wheel-circling 999999s linear infinite; 
+}
+
+@keyframes wheel-circling {
+	
+	100% {
+		transform: rotate(360deg);
+	}
+}
